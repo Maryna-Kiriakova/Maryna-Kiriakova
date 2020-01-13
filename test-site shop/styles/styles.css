@@ -1,0 +1,36 @@
+body {  
+         color: black;
+         font-family: Arial,Segoe UI,Roboto,Helvetica,sans-serif;
+        }
+     /* unvisited link */
+     a:link {
+             color: durkblue; text-decoration: none; 
+         }
+
+    /* visited link */
+    a:visited {
+               color: durkblue; text-decoration: none;
+         }
+
+    /* mouse over link */
+    a:hover {
+             color: green; text-decoration: underline;
+         }
+
+     /* selected link */
+     a:active {
+             color: green; text-decoration: underline;
+         }	
+
+li {
+  list-style-type: none;
+}
+/*кнопка Наверх*/
+.skroll {width: 200px; 
+top: 750px;
+right: -20px;
+position: fixed;}
+
+.highlight {background-color: #f2f2f2;
+            margin-bottom: 20px;
+			margin-top: 20px;}
